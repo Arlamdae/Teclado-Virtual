@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100hv;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    border: none;
+    display: inline-block;
+    padding: .5rem 1rem;
+    margin: .3rem;
+    font-size: 1.3rem;
+    color: rgb(71, 78, 177);
+    width: 50px;
+    height: 50px;
+    border-radius: .5rem;
+
+}
+
+.delete {
+    width: 7rem;
+}
+
+.shift {
+    width: 5rem;
+} 
+
+.space {
+    width: 100%;
+}
+
+.sheet {
+    width: 100%;
+    align-self: center;
+}
