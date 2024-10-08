@@ -21,3 +21,14 @@ delete_btn.addEventListener('click', () => {
     textarea.value = chars.join ('')
 
 })
+
+shift_btn.addEventListener('click', () => {
+    buttons.forEach (btn => {
+        btn.classList.toggle('upper')
+    })
+})
+
+space_btn.addEventListener('click', () =>{
+    chars.push (' ')
+    textarea.value = chars.join (' ')
+})
